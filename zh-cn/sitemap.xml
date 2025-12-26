@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>http://windovec.github.io/eera/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/"
+                href="http://windovec.github.io/eera/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/"
+                href="http://windovec.github.io/eera/"
                 />
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>http://windovec.github.io/eera/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>http://windovec.github.io/eera/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>http://windovec.github.io/eera/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/categories/"
+                href="http://windovec.github.io/eera/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/categories/"
+                href="http://windovec.github.io/eera/categories/"
                 />
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://windovec.github.io/eera/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
+                href="http://windovec.github.io/eera/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/tags/"
+                href="http://windovec.github.io/eera/tags/"
                 />
   </url><url>
-    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://windovec.github.io/eera/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>http://windovec.github.io/eera/%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>http://windovec.github.io/eera/search/</loc>
   </url>
 </urlset>
