@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://windovec.github.io/eera/en/categories/</loc>
+    <loc>https://windovec.github.io/eera/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://windovec.github.io/eera/categories/"
+                href="https://windovec.github.io/eera/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://windovec.github.io/eera/en/categories/"
+                href="https://windovec.github.io/eera/en/categories/"
                 />
   </url><url>
-    <loc>http://windovec.github.io/eera/en/</loc>
+    <loc>https://windovec.github.io/eera/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://windovec.github.io/eera/"
+                href="https://windovec.github.io/eera/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://windovec.github.io/eera/en/"
+                href="https://windovec.github.io/eera/en/"
                 />
   </url><url>
-    <loc>http://windovec.github.io/eera/en/tags/</loc>
+    <loc>https://windovec.github.io/eera/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://windovec.github.io/eera/tags/"
+                href="https://windovec.github.io/eera/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://windovec.github.io/eera/en/tags/"
+                href="https://windovec.github.io/eera/en/tags/"
                 />
   </url>
 </urlset>
