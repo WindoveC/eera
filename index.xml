@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>WindoveC</title>
-        <link>https://windovec.github.io/Eera/</link>
+        <link>https://windovec.github.io/eera/</link>
         <description>Recent content on WindoveC</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>WindoveC</copyright>
-        <lastBuildDate>Fri, 26 Dec 2025 18:07:01 +0800</lastBuildDate><atom:link href="https://windovec.github.io/Eera/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 26 Dec 2025 18:07:01 +0800</lastBuildDate><atom:link href="https://windovec.github.io/eera/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>欢迎访问，多多指教</title>
-        <link>https://windovec.github.io/Eera/p/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%A4%9A%E5%A4%9A%E6%8C%87%E6%95%99/</link>
+        <link>https://windovec.github.io/eera/p/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%A4%9A%E5%A4%9A%E6%8C%87%E6%95%99/</link>
         <pubDate>Fri, 26 Dec 2025 18:07:01 +0800</pubDate>
         
-        <guid>https://windovec.github.io/Eera/p/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%A4%9A%E5%A4%9A%E6%8C%87%E6%95%99/</guid>
+        <guid>https://windovec.github.io/eera/p/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%A4%9A%E5%A4%9A%E6%8C%87%E6%95%99/</guid>
         <description></description>
         </item>
         <item>
         <title>归档</title>
-        <link>https://windovec.github.io/Eera/archives/</link>
+        <link>https://windovec.github.io/eera/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://windovec.github.io/Eera/archives/</guid>
+        <guid>https://windovec.github.io/eera/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://windovec.github.io/Eera/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://windovec.github.io/eera/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://windovec.github.io/Eera/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://windovec.github.io/eera/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>链接</title>
-        <link>https://windovec.github.io/Eera/%E9%93%BE%E6%8E%A5/</link>
+        <link>https://windovec.github.io/eera/%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://windovec.github.io/Eera/%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://windovec.github.io/eera/%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -69,10 +69,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://windovec.github.io/Eera/search/</link>
+        <link>https://windovec.github.io/eera/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://windovec.github.io/Eera/search/</guid>
+        <guid>https://windovec.github.io/eera/search/</guid>
         <description></description>
         </item>
         
