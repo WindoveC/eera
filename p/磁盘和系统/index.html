@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="重装系统 Note 重装后所有装在C盘的软件需要重新配置，环境需要重新配置，非必要不重装\n">
+<title>磁盘和系统</title>
+
+<link rel='canonical' href='https://windovec.github.io/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/'>
+
+<link rel="stylesheet" href="/eera/scss/style.min.7e7e47e8797277dc2c9382473df1cd6a846b00bc289ac129ae21df2a2cfc992b.css"><meta property='og:title' content="磁盘和系统">
+<meta property='og:description' content="重装系统 Note 重装后所有装在C盘的软件需要重新配置，环境需要重新配置，非必要不重装\n">
+<meta property='og:url' content='https://windovec.github.io/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/'>
+<meta property='og:site_name' content='WindoveC'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-12-26T21:31:28&#43;08:00'/><meta property='article:modified_time' content='2025-12-26T21:31:28&#43;08:00'/>
+<meta name="twitter:title" content="磁盘和系统">
+<meta name="twitter:description" content="重装系统 Note 重装后所有装在C盘的软件需要重新配置，环境需要重新配置，非必要不重装\n">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/eera/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/eera/img/avatar_hu_f9ee51788a101886.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😶‍🌫️</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/eera">WindoveC</a></h1>
+            <h2 class="site-description">一些简略电脑维修服务经验</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/WindoveC'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/8320103'
+                        target="_blank"
+                        title="哔哩哔哩"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http://www.coolapk.com/u/1454784'
+                        target="_blank"
+                        title="酷安"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1766422585940" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11008" width="256" height="256"><path d="M445.493333 46.72c95.733333-13.653333 195.626667 2.613333 281.493334 47.253333 92.373333 47.36 168.16 126.24 211.626666 220.48 46.986667 100.426667 56.16 217.706667 26.24 324.426667-26.24 94.293333-82.826667 180-159.573333 240.8-72.586667 58.133333-162.826667 94.24-255.68 101.013333-116.586667 10.293333-236.32-26.186667-328.053333-98.773333-66.08-51.52-117.546667-121.44-147.893334-199.466667-44.106667-112.48-42.186667-242.133333 5.226667-353.226666 61.866667-149.6 206.026667-261.226667 366.613333-282.506667M270.4 350.08c-61.76 30.453333-102.986667 98.4-99.413333 167.413333 0.693333 66.666667 42.72 130.24 102.933333 158.293334 39.253333 19.04 84.853333 21.173333 127.093333 12.64 49.12-10.293333 90.453333-41.973333 124.8-77.173334 53.6-54.72 86.453333-124.96 129.6-187.36 22.666667 41.173333 45.333333 82.346667 67.786667 123.573334-24.586667-15.786667-46.773333-35.04-72.16-49.653334-16.746667 11.946667-33.28 24.213333-50.186667 35.946667 62.08 49.013333 126.666667 94.826667 190.026667 142.186667 12.96 8.746667 27.84 23.253333 44.64 14.666666 17.6-7.146667 22.613333-30.346667 12.106667-45.44-52.373333-99.466667-108.48-196.906667-163.253334-295.093333-5.653333-13.066667-19.626667-22.773333-34.24-18.56-13.493333 2.133333-20.266667 15.52-27.146666 25.76-32.106667 52.8-61.813333 107.146667-97.44 157.76-33.866667 48.213333-77.12 96.373333-136.586667 110.88-58.026667 15.2-126.026667-14.506667-148.213333-71.68-17.813333-46.133333-2.933333-102.613333 36.533333-132.8 35.946667-29.013333 86.72-31.093333 129.386667-17.653333 42.666667 13.76 76.533333 44.48 110.773333 72.053333 17.493333-12.053333 36-23.146667 50.986667-38.4-44.96-39.84-93.013333-79.306667-151.146667-97.76-48.16-12.64-101.813333-13.12-146.88 10.4z" fill="#ffffff" p-id="11009"></path><path d="M254.29333333 339.28533333c48.07111147-25.088 105.30133333-24.576 156.672-11.09333333 62.00888853 19.6835552 113.26577813 61.78133333 161.22311147 104.27733333-15.98577813 16.27022187-35.72622187 28.10311147-54.38577813 40.96-36.52266667-29.4115552-72.64711147-62.1795552-118.15822187-76.85688853-45.51111147-14.336-99.66933333-12.11733333-138.0124448 18.83022187-42.09777813 32.19911147-57.96977813 92.4444448-38.96888853 141.65333333 23.66577813 60.98488853 96.19911147 92.672 158.09422186 76.45866667 63.43111147-15.47377813 109.568-66.8444448 145.6924448-118.272 38.00177813-53.9875552 69.68888853-111.95733333 103.936-168.27733334 7.33866667-10.92266667 14.5635552-25.20177813 28.95644374-27.47733333 15.5875552-4.49422187 30.4924448 5.8595552 36.52266666 19.79733333 58.42488853 104.7324448 118.272 208.6684448 174.1368896 314.76622187 11.20711147 16.0995552 5.8595552 40.84622187-12.91377813 48.46933333-17.92 9.15911147-33.792-6.31466667-47.616-15.64444373-67.584-50.51733333-136.4764448-99.38488853-202.69511147-151.66577813 18.03377813-12.5155552 35.66933333-25.6 53.5324448-38.34311147 27.07911147 15.5875552 50.74488853 36.1244448 76.97066667 52.96355627-23.95022187-43.97511147-48.128-87.89333333-72.30577813-131.81155627-46.02311147 66.56-81.06666667 141.48266667-138.24 199.85066667-36.6364448 37.54666667-80.72533333 71.33866667-133.12 82.31822293-45.056 9.10222187-93.696 6.82666667-135.56622187-13.48266667-64.2275552-29.9235552-109.056-97.73511147-109.7955552-168.84622293-3.8115552-73.61422187 40.1635552-146.09066667 106.04088853-178.57422187z" fill="#333333" p-id="11010"></path></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/eera/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/eera/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/eera/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/eera/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/eera/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://windovec.github.io/eera/" selected>简体中文</option>
+                                
+                                    <option value="https://windovec.github.io/eera/en/" >English</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#重装系统">重装系统</a>
+      <ol>
+        <li><a href="#方式一首先尝试windows系统自带的重新安装初始化电脑功能">方式一：首先尝试Windows<strong>系统自带</strong>的重新安装、初始化电脑功能</a></li>
+        <li><a href="#方式二使用预安装环境pe">方式二：使用预安装环境（<strong>PE</strong>）</a></li>
+        <li><a href="#windows-安装媒体工具"><strong>Windows 安装媒体工具</strong></a></li>
+        <li><a href="#微pe">微PE</a></li>
+        <li><a href="#跳过联网">跳过联网</a></li>
+      </ol>
+    </li>
+    <li><a href="#diskgenius">DiskGenius</a>
+      <ol>
+        <li><a href="#整体界面">整体界面</a></li>
+      </ol>
+    </li>
+    <li><a href="#系统自带磁盘管理">系统自带磁盘管理</a></li>
+    <li><a href="#清理c盘">清理C盘</a></li>
+    <li><a href="#wiztree">wiztree</a></li>
+    <li><a href="#everything">everything</a></li>
+    <li><a href="#一些学习视频">一些学习视频</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/">磁盘和系统</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2025-12-26T21:31:28&#43;08:00'>Dec 26, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 8 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="重装系统">重装系统
+</h2>
+            <link rel="stylesheet" href="/eera/css/vendors/admonitions.a5128328e65b14e9af1bfc5d96ffbcc40978b6d81dbeecb7f70959b501ee715c.css" integrity="sha256-pRKDKOZbFOmvG/xdlv&#43;8xAl4ttgdvuy39wlZtQHucVw=" crossorigin="anonymous">
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>重装后所有装在C盘的软件需要重新配置，环境需要重新配置，非必要不重装</p>
+<p>重装系统后，厂商自带的软件会丢失，绝大多数都可以通过官网重新下载</p>
+      </div>
+    </div><h3 id="方式一首先尝试windows系统自带的重新安装初始化电脑功能">方式一：首先尝试Windows<strong>系统自带</strong>的重新安装、初始化电脑功能
+</h3><ul>
+<li><strong>重置：</strong> 此选项会重新安装 Windows，并让你可以选择保留或删除个人文件。 但是，应用和设置会重置为默认值。 有关详细信息，请参阅 <a class="link" href="https://support.microsoft.com/zh-cn/windows/%e5%88%9d%e5%a7%8b%e5%8c%96%e7%94%b5%e8%84%91-0ef73740-b927-549b-b7c9-e6f2b48d275e"  target="_blank" rel="noopener"
+    >如何重置电脑</a>。</li>
+<li><strong>重新安装 Windows：</strong> 此选项从头开始重新安装整个作系统，可以使用安装媒体或恢复驱动器来完成。 它更彻底，通常删除所有文件和应用。</li>
+</ul>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102558113.png"
+	width="1888"
+	height="1213"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102558113_hu_1d09e9b8e3c68623.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102558113_hu_ccfd9ff46fa53913.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="373px"
+	
+></p>
+<h3 id="方式二使用预安装环境pe">方式二：使用预安装环境（<strong>PE</strong>）
+</h3><blockquote>
+<p>一个微型或精简版的操作系统，通常用于系统维护和安装。PE 系统可以通过 U 盘或移动硬盘启动，不依赖于原本电脑上的操作系统。其主要功能包括、系统安装、硬盘分区、系统备份和还原、引导修复、文件管理、清除开机密码等。</p>
+</blockquote>
+<p>使用正规品牌，容量8G以上U盘</p>
+<ul>
+<li>
+<p><strong>常见工具</strong>：</p>
+<ul>
+<li>
+<p>微软官方提供了 <strong>创建 Windows 安装媒体工具</strong></p>
+<blockquote>
+<p>Win11：<a class="link" href="https://www.microsoft.com/zh-cn/software-download/windows11"  target="_blank" rel="noopener"
+    >下载 Windows 11</a>
+Win10：<a class="link" href="https://www.microsoft.com/zh-cn/software-download/windows10"  target="_blank" rel="noopener"
+    >下载 Windows 10</a></p>
+</blockquote>
+</li>
+<li>
+<p><strong>微PE</strong>：更精简，通常够用</p>
+<blockquote>
+<p>官方链接：<a class="link" href="https://www.wepe.com.cn/download.html"  target="_blank" rel="noopener"
+    >微PE工具箱 - 下载</a></p>
+</blockquote>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226221926738.png"
+	width="859"
+	height="544"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226221926738_hu_c7028d4db8bd52a9.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226221926738_hu_33fe0ce83f677b3b.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="157"
+		data-flex-basis="378px"
+	
+></p>
+</li>
+<li>
+<p><strong>优启通</strong>：工具更加全面</p>
+<blockquote>
+<p>官方链接：https://www.upe.net/
+VIP版（附加一些工具和联网、外放等）：<a class="link" href="https://www.123pan.com/s/A6cA-BCHJh"  target="_blank" rel="noopener"
+    >优启通EasyU_123云盘免登录下载不限速</a></p>
+</blockquote>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222037456.png"
+	width="871"
+	height="598"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222037456_hu_102c419b8f38e15c.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222037456_hu_f564700c4f3ae480.png 1024w"
+	loading="lazy"
+	
+		alt="image-20251226222037456"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="145"
+		data-flex-basis="349px"
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>U盘制作和电脑设置：</p>
+<ol>
+<li>
+<p>安装前<strong>转移U盘内文件</strong>，安装PE到U盘会格式化</p>
+</li>
+<li>
+<p>格式化时文件格式选择 <strong>exFAT</strong></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">特性</th>
+          <th>FAT32</th>
+          <th>exFAT</th>
+          <th>NTFS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>大小</strong></td>
+          <td>最大4GB（单个分区32G）</td>
+          <td>理论上16EB（实际看设备）</td>
+          <td>理论上16EB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**兼</td>
+          <td>全支持</td>
+          <td>Win/Mac支持好，Linux需额外驱动，老设备可能不认</td>
+          <td>主要Windows支持，Mac只读，Linux需驱动</td>
+      </tr>
+  </tbody>
+</table></div>
+</li>
+<li>
+<p>正式开始制作前关闭安全软件，防止软件被意外拦截导致错误（软件会进行修改分区等操作）</p>
+</li>
+<li>
+<p>使用启动盘时，台式机注意插到和主板直接相连的USB接口，笔记本可以随便选一个。也就是说，（避免接在延长线，拓展坞上）</p>
+</li>
+<li>
+<p>进入PE</p>
+<ul>
+<li>
+<p>插入启动盘，按开机后，台式机疯狂按Del按键进入BIOS界面，笔记本略有不同，常见型号如下：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">品牌</th>
+          <th style="text-align: left">常用按键 (可依次尝试)</th>
+          <th style="text-align: left">关键点与补充说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>联想 (Lenovo)</strong></td>
+          <td style="text-align: left"><strong>F2</strong> 或 <strong>F1</strong></td>
+          <td style="text-align: left">大多数消费机型用 <strong>F2</strong>，<strong>ThinkPad系列通常用F1</strong>。部分旧机型需按 <strong>Fn+F2</strong>。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>戴尔 (Dell)</strong></td>
+          <td style="text-align: left"><strong>F2</strong></td>
+          <td style="text-align: left">非常统一，<strong>F2</strong> 是进入BIOS的通用键。按 <strong>F12</strong> 可进入启动菜单，再选择BIOS设置。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>惠普 (HP)</strong></td>
+          <td style="text-align: left"><strong>F10</strong> 或 <strong>Esc</strong></td>
+          <td style="text-align: left"><strong>F10</strong> 可直接进入BIOS。按 <strong>Esc</strong> 会先进入启动菜单，再选择进入BIOS的选项。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>华硕 (ASUS)</strong></td>
+          <td style="text-align: left"><strong>F2</strong> 或 <strong>Del</strong></td>
+          <td style="text-align: left"><strong>F2</strong> 更为常见。台式机或部分笔记本主板也可能用 <strong>Del</strong> 键。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>宏碁 (Acer)</strong></td>
+          <td style="text-align: left"><strong>F2</strong> 或 <strong>Del</strong></td>
+          <td style="text-align: left">多数机型为 <strong>F2</strong>，部分机型可能为 <strong>Del</strong>。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>华为 (Huawei)</strong></td>
+          <td style="text-align: left"><strong>F2</strong></td>
+          <td style="text-align: left">部分机型可能为 <strong>Esc</strong> 键。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>微星 (MSI)</strong></td>
+          <td style="text-align: left"><strong>Del</strong> 或 <strong>F2</strong></td>
+          <td style="text-align: left">根据主板型号有所不同。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>神舟 (Hasee)</strong></td>
+          <td style="text-align: left"><strong>Del</strong> 或 <strong>F2</strong></td>
+          <td style="text-align: left">多数情况下为 <strong>Del</strong> 键。</td>
+      </tr>
+  </tbody>
+</table></div>
+</li>
+<li>
+<p>也可以通过 设置 - 系统 - 恢复 - 高级重启，重启后选择疑难解答 - 高级选项 - UEFI 固件设置 进入</p>
+</li>
+</ul>
+<ol start="6">
+<li>
+<p>在设置中找到启动优先顺序选项（可能显示为Boot Menu，Boot priority等）</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/20240813170702293_Bi1-1766758702892-3.png"
+	width="1320"
+	height="744"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/20240813170702293_Bi1-1766758702892-3_hu_efa752d062ce5092.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/20240813170702293_Bi1-1766758702892-3_hu_275beafe1daa10f6.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="425px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222129698.png"
+	width="1237"
+	height="662"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222129698_hu_79aa577513c066e4.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222129698_hu_ae1187a880d87b3c.png 1024w"
+	loading="lazy"
+	
+		alt=" "
+	
+	
+		class="gallery-image" 
+		data-flex-grow="186"
+		data-flex-basis="448px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223024422.png"
+	width="1782"
+	height="879"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223024422_hu_97dd10bfe102d803.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223024422_hu_bbea39d258f89c4f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="202"
+		data-flex-basis="486px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001237646.png"
+	width="2560"
+	height="1440"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001237646_hu_a729b84e36f5270d.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001237646_hu_1b9b2c48c3046f10.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001305966.png"
+	width="2560"
+	height="1440"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001305966_hu_d1fe881846c5125b.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001305966_hu_9af7a3b345e73357.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p>还有一些电脑是打开菜单选项，再下次F12进入时就可以选择了</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222502905.png"
+	width="1657"
+	height="978"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222502905_hu_5da51ee243eb3334.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226222502905_hu_1ae4d00d6f189714.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="169"
+		data-flex-basis="406px"
+	
+></p>
+</li>
+</ol>
+<ul>
+<li>现在的机器为UEFI引导+GUID分区表，一些老机器可能为Legacy引导+MBR分区，在手动安装系统时会用到这个知识，在选择启动项时，通常有UEFI选UEFI引导，无UEFI引导选Legacy。
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">特性</th>
+          <th style="text-align: left"><strong>UEFI + GPT (现代组合)</strong></th>
+          <th style="text-align: left"><strong>Legacy + MBR (传统组合)</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>对应关系</strong></td>
+          <td style="text-align: left">UEFI启动模式<strong>必须</strong>配合GPT分区表（也可兼容MBR，但不推荐）。</td>
+          <td style="text-align: left">Legacy启动模式<strong>通常</strong>配合MBR分区表。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>硬盘容量</strong></td>
+          <td style="text-align: left"><strong>支持 &gt;2TB 的大容量硬盘</strong>。</td>
+          <td style="text-align: left"><strong>最大只支持 2TB 硬盘</strong>，超出部分无法识别使用。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>分区数量</strong></td>
+          <td style="text-align: left">理论上无限制（Windows下最多128个）。</td>
+          <td style="text-align: left"><strong>最多4个主分区</strong>，或3个主分区+1个扩展分区（内含多个逻辑分区）。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>安全性</strong></td>
+          <td style="text-align: left">支持<strong>安全启动</strong>，可防止恶意软件在启动前加载，安全性高。</td>
+          <td style="text-align: left">无此安全机制。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>启动速度</strong></td>
+          <td style="text-align: left"><strong>启动速度更快</strong>。</td>
+          <td style="text-align: left">启动速度相对较慢。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>系统要求</strong></td>
+          <td style="text-align: left">Windows 8/8.1、10、11 均原生支持。</td>
+          <td style="text-align: left">所有Windows系统都支持，但<strong>Windows 11 已强制要求UEFI+GPT</strong>。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>适用场景</strong></td>
+          <td style="text-align: left"><strong>2015年后出品的新电脑</strong>、新装系统的首选，尤其是使用大容量固态硬盘时。</td>
+          <td style="text-align: left"><strong>旧电脑</strong>（约2015年前）、或需要安装旧版操作系统（如Windows 7及更早）时。</td>
+      </tr>
+  </tbody>
+</table></div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="windows-安装媒体工具"><strong>Windows 安装媒体工具</strong>
+</h3><ol>
+<li>
+<p>删除驱动盘所有分区</p>
+</li>
+<li>
+<p>如果想要分盘（点击新建），C盘推荐100G左右，分区后还会多出MSR分区、恢复分区等分区</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223811058.png"
+	width="1411"
+	height="799"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223811058_hu_9f66c9f28f529114.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226223811058_hu_7d232fa66b762349.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="176"
+		data-flex-basis="423px"
+	
+></p>
+</li>
+<li>
+<p>点击下一步后，会检测引导方式（之前选择的）和磁盘分区表格式是否匹配</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224130168.png"
+	width="1851"
+	height="1220"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224130168_hu_fc701e1bc07d6d7a.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224130168_hu_b904ff73d73d2c6.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="151"
+		data-flex-basis="364px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224003772.png"
+	width="651"
+	height="409"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224003772_hu_41cb2e7daa4f39ba.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226224003772_hu_ffbadf2ce2368a1a.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="382px"
+	
+></p>
+<p>如果不匹配，可以 <code>shift+F10</code> 打开命令行，然后通过如下命令修改磁盘结构</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">diskpart
+</span></span><span class="line"><span class="cl">list disk
+</span></span><span class="line"><span class="cl">select disk 0
+</span></span><span class="line"><span class="cl">clean
+</span></span><span class="line"><span class="cl">convert gpt
+</span></span><span class="line"><span class="cl">:: 或者 convert mbr
+</span></span><span class="line"><span class="cl">exit
+</span></span><span class="line"><span class="cl">exit
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>后续安装完成会重启，第一次黑屏后就可以拔掉U盘（防止再次自动进入PE系统）
+（可能会重启多次），开机显示初始界面，后按照提示点击即可</p>
+</li>
+</ol>
+<h3 id="微pe">微PE
+</h3><ol>
+<li>
+<p>分盘后在资源管理器中可以看到EFI分区和资源分区，资源分区可以当作正常U盘使用</p>
+</li>
+<li>
+<p>系统安装包下载，</p>
+<ul>
+<li>可以通过上文提到的官网或者官方工具下载ISO镜像</li>
+<li>可以通过<a class="link" href="https://next.itellyou.cn/Original/Index"  target="_blank" rel="noopener"
+    >原版软件</a>下载</li>
+</ul>
+<p>通常推荐使用专业版系统，下载business editions镜像，下载完成后务必进行SHA1校验（推荐使用<a class="link" href="https://share.weiyun.com/m4VMLcNb"  target="_blank" rel="noopener"
+    >iHasher</a>）</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">版本类别 (Edition Type)</th>
+          <th style="text-align: left">包含版本 (Included Versions)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Consumer Editions</strong> (消费者版)</td>
+          <td style="text-align: left">- 家庭版 (Home) - 专业版 (Professional) - 教育版 (Education)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Business Editions</strong> (商业版)</td>
+          <td style="text-align: left">- 专业版 (Professional) - 企业版 (Enterprise)</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226230058111.png"
+	width="1700"
+	height="697"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226230058111_hu_61ec857d9d430435.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226230058111_hu_bbb91803a2befff0.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="243"
+		data-flex-basis="585px"
+	
+></p>
+</li>
+<li>
+<p>进入PE系统后，可以直接找到iso镜像，右键 - 安装，打开setup.exe后操作同 Windows 安装媒体工具</p>
+</li>
+<li>
+<p>而分区操作可以使用 pe 中的 <strong>DiskGenius</strong> 软件进行，对该软件的介绍放在下一部分</p>
+</li>
+</ol>
+<h3 id="跳过联网">跳过联网
+</h3><ul>
+<li>
+<p>方法一：</p>
+<ol>
+<li>在联网界面按 <code>Shift+F10</code> 或 <code>Shift+Fn+F10</code>，弹出命令提示符窗口，输入：<code>OOBE\BYPASSNRO</code>，敲回车电脑重启</li>
+<li>再次回到连接网络界面，点击“我没有Internet连接”即可</li>
+<li>接着点击“继续执行受限设置”即可</li>
+</ol>
+</li>
+<li>
+<p>方法二：</p>
+<p>使用命令 <code>start ms-cxh:localonly</code></p>
+</li>
+<li>
+<p>方法三：</p>
+<ol>
+<li>按 Shift + F10 输入 taskmgr 启动任务管理器</li>
+<li>在 <code>详细信息</code> 选项卡中找到并结束 <code>OOBENetworkConnectionFlow.exe</code> 或 <code>Network Connection Flow</code> 或 <strong>网络连接流</strong> 进程</li>
+</ol>
+</li>
+</ul>
+<h2 id="diskgenius">DiskGenius
+</h2><p>免费版够用，PE内也自带</p>
+<blockquote>
+<p>下载链接：<a class="link" href="https://www.diskgenius.cn/download.php"  target="_blank" rel="noopener"
+    >DiskGenius – 正式版下载|免费下载</a></p>
+</blockquote>
+<h3 id="整体界面">整体界面
+</h3><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226231536085.png"
+	width="1778"
+	height="1197"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226231536085_hu_7d83c7ea93b00100.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226231536085_hu_6fcdefada04daca1.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="148"
+		data-flex-basis="356px"
+	
+></p>
+<ul>
+<li>
+<p><strong>左边列表：磁盘和分区详情</strong></p>
+<ul>
+<li>以我的电脑为例：有三个磁盘，<strong>HD0</strong>、<strong>HD1</strong>、<strong>RD2</strong>，其中RD2是U盘</li>
+<li><strong>ESP</strong>、<strong>MSR</strong> 、<strong>Recovery</strong> 分区为系统需要，用户不需要管理</li>
+</ul>
+</li>
+<li>
+<p>点击磁盘或者分区会在右下板块显示详情</p>
+</li>
+<li>
+<p><strong>右键磁盘出现功能列表</strong></p>
+
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>这些功能一般在PE环境下操作，在主机系统下谨慎使用</p>
+      </div>
+    </div><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232007567.png"
+	width="664"
+	height="835"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232007567_hu_f87216bff9ef6936.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232007567_hu_81834ca7924227c.png 1024w"
+	loading="lazy"
+	
+		alt="image-20251226232007567"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="79"
+		data-flex-basis="190px"
+	
+></p>
+<p>进行下列操作后，可以每次操作后或者推出软件前点击<strong>保存更改</strong></p>
+<ul>
+<li>
+<p><strong>删除所有分区</strong>：用于装系统之前重置磁盘</p>
+</li>
+<li>
+<p><strong>快速分区</strong>：界面如下，注意一定要选择<strong>对齐分区</strong>，不然会损失性能和寿命</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232445965.png"
+	width="1125"
+	height="518"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232445965_hu_c713bac8084bf17.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226232445965_hu_4f4cc9f990bc3178.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="217"
+		data-flex-basis="521px"
+	
+></p>
+</li>
+<li>
+<p><strong>转换分区表类型为 GUID / MBR 格式</strong>，可以取代前面提到的命令行操作</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>右键分区出现功能列表</strong></p>
+
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>对分区的操作可以在主机系统下进行，涉及C盘的操作需要注意一下</p>
+<p>该工具可以帮助同学们在同磁盘其他分区有空余的情况下扩容C盘</p>
+      </div>
+    </div><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233156509.png"
+	width="513"
+	height="1173"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233156509_hu_cdb3dbef91eee62e.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233156509_hu_ca543aa1f620b05d.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="43"
+		data-flex-basis="104px"
+	
+></p>
+<ul>
+<li>
+<p><strong>调整分区大小</strong></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233711369.png"
+	width="978"
+	height="719"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233711369_hu_4ca0a2619a3effd3.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233711369_hu_e80f355b5d2c9e07.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="326px"
+	
+></p>
+<p>不如拆分分区方便，功能是可以将当前分区向前或向后拆分出空闲分区、新分区、或者合并到其他分区</p>
+</li>
+<li>
+<p><strong>扩容分区</strong></p>
+<p>主要用于扩容，点击后选择被剥削分区，出现的界面中是被剥削磁盘的情况，中间的分界线可以拖动</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233734845.png"
+	width="848"
+	height="288"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233734845_hu_d524526f08f71beb.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233734845_hu_90f067872cfc78e3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="294"
+		data-flex-basis="706px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233844036.png"
+	width="978"
+	height="719"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233844036_hu_35d43008dfc5c11f.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233844036_hu_69b07fa15aa2c3c4.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="326px"
+	
+></p>
+</li>
+<li>
+<p><strong>拆分分区</strong></p>
+<p>在调整分区大小的基础上，被选择分区可以拖动，前后两条线可以拖动</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233920915.png"
+	width="979"
+	height="763"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233920915_hu_ec6cfbed725969e.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233920915_hu_dcac5670add3de21.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="128"
+		data-flex-basis="307px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233947728.png"
+	width="978"
+	height="719"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233947728_hu_9fd344ba0d264371.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226233947728_hu_a5985566129d5828.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="326px"
+	
+></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="系统自带磁盘管理">系统自带磁盘管理
+</h2><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226234554887.png"
+	width="1960"
+	height="1125"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226234554887_hu_896161a98da49764.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226234554887_hu_ef1bcb1f5146b17a.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="174"
+		data-flex-basis="418px"
+	
+></p>
+<ul>
+<li>
+<p>也可以进行<strong>创建分区</strong>操作，常用于<strong>安装新的硬盘后</strong></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226235956653.png"
+	width="703"
+	height="479"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226235956653_hu_b0fb60bc062e53fa.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251226235956653_hu_1442d4be9f8d3fe3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="146"
+		data-flex-basis="352px"
+	
+></p>
+</li>
+<li>
+<p><strong>压缩卷</strong>：只能向后分</p>
+</li>
+<li>
+<p><strong>拓展卷</strong>：只能吞后面的</p>
+</li>
+<li>
+<p>系统自带的工具<strong>限制更多</strong>（包括方向、不能充分拆分等），但比第三方工具<strong>安全</strong>很多</p>
+</li>
+</ul>
+<h2 id="清理c盘">清理C盘
+</h2><ul>
+<li>
+<p><strong>主要途径</strong></p>
+<ul>
+<li>
+<p>清理缓存：删除C盘内文件有风险，临时文件一段时间后还会生成</p>
+</li>
+<li>
+<p>移动文件：如移动微信、QQ的缓存记录</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>操作习惯</strong></p>
+<ul>
+<li>
+<p>先看看桌面位置在不在C盘，检查有没有大文件或文件夹，有的话可以移动到别的分区然后创建快捷方式</p>
+
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>不推荐移动，可能出现bug，后续不要直接放在桌面即可</p>
+      </div>
+    </div><ul>
+<li>查看和修改位置：资源管理器左栏 - 右键桌面 - 属性 - 位置
+如果左栏没有：则在桌面创建一个新文件，右键查看位置，如 <code>C:\Users\aoruo\Desktop</code>，访问<code>C:\Users\Desktop</code>，既可以看到桌面图标</li>
+</ul>
+</li>
+<li>
+<p>后续尽量避免在C盘装软件</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>清理缓存</strong>：</p>
+<ol>
+<li>
+<p><code>Win+r</code> 打开启动，输入 <code>%temp%</code>，跳转临时文件文件夹，将文件夹内内容删除
+如果开启了回收站，可以使用 <code>Ctrl+Del</code> 进行永久删除</p>
+
+    <div class="admonition caution">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+        <span>Caution</span>
+      </div>
+      <div class="admonition-content">
+        <p>主要不要删除TEMP文件夹</p>
+      </div>
+    </div>
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>碰到某某文件正在被使用提醒，选择跳过即可
+如果长时间卡住，可以点击取消或者直接关闭进度窗口，之后重新删除（Windows在清理大量小文件时容易出现该情况）</p>
+      </div>
+    </div><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227101721672.png"
+	width="1664"
+	height="1128"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227101721672_hu_58150d6bef6f28db.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227101721672_hu_f537218a6970819e.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="147"
+		data-flex-basis="354px"
+	
+></p>
+</li>
+<li>
+<p>清理<strong>临时文件</strong></p>
+<ul>
+<li>
+<p>win11：右键磁盘 - 属性 - 常规 - 详细信息 - 临时文件，默认选项清理即可，如果不需要保留回收站，则勾选</p>
+</li>
+<li>
+<p>win10：右键磁盘 - 属性 - 常规 - 磁盘清理</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095148310.png"
+	width="658"
+	height="865"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095148310_hu_99cae7a245437029.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095148310_hu_62f8812f7d290a5c.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="76"
+		data-flex-basis="182px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095540961.png"
+	width="1459"
+	height="1007"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095540961_hu_86aeab50c3cb93d6.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095540961_hu_e28cae47a9bc0600.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="144"
+		data-flex-basis="347px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095246078.png"
+	width="1888"
+	height="1213"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095246078_hu_e53eeb96286cc04c.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227095246078_hu_b049560662505c6c.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="373px"
+	
+></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102639016.png"
+	width="1888"
+	height="1213"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102639016_hu_81a1d86d140774e8.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102639016_hu_47c96b488a2c34ca.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="373px"
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>关闭休眠，笔记本有睡眠选项</p>
+<ul>
+<li>
+<p><code>Win+s</code>，搜索 <code>cmd</code>，管理员模式打开</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227094328198.png"
+	width="1184"
+	height="714"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227094328198_hu_a9454de3528ddf24.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227094328198_hu_55d950758fb4cb22.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="165"
+		data-flex-basis="397px"
+	
+></p>
+</li>
+<li>
+<p>首先查看是否开启 <code>powercfg /a</code></p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227093900066.png"
+	width="1730"
+	height="953"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227093900066_hu_db6d997c9ffd2f2d.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227093900066_hu_ec72c83379f02cf4.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="181"
+		data-flex-basis="435px"
+	
+></p>
+</li>
+<li>
+<p>关闭 <code>powercfg.exe /hibernate off</code>，可以缩写为 <code>powercfg /h off</code></p>
+</li>
+<li>
+<p>开启 <code>powercfg.exe /hibernate on</code>，可以缩写为 <code>powercfg /h on</code></p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>使用火绒、360等软件的垃圾清理</strong></p>
+</li>
+<li>
+<p><strong>DISM++</strong></p>
+<p>该工具可以用于清理C盘</p>
+<blockquote>
+<p>github链接：<a class="link" href="https://github.com/Chuyu-Team/Dism-Multi-language"  target="_blank" rel="noopener"
+    >Chuyu-Team/Dism-Multi-language: Dism++ Multi-language Support &amp; BUG Report</a></p>
+</blockquote>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001119025.png"
+	width="1478"
+	height="1037"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001119025_hu_5796cc3dda7d5f10.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227001119025_hu_9fd250c9136226b2.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="142"
+		data-flex-basis="342px"
+	
+></p>
+<p><strong>使用空间回收，点击默认 -&gt; 扫描 -&gt; 清理</strong></p>
+
+    <div class="admonition note">
+      <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+        <span>Note</span>
+      </div>
+      <div class="admonition-content">
+        <p>如果回收站内容还有用，或者占用空间不大，取消勾选</p>
+      </div>
+    </div><p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227100935915.png"
+	width="1478"
+	height="964"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227100935915_hu_15d45888bf71d882.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227100935915_hu_b32d7efdc8db8c64.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="153"
+		data-flex-basis="367px"
+	
+></p>
+</li>
+</ul>
+<h2 id="wiztree">wiztree
+</h2><blockquote>
+<p>官网下载页面：<a class="link" href="https://www.diskanalyzer.com/download"  target="_blank" rel="noopener"
+    >Download WizTree</a>，需要代理访问</p>
+</blockquote>
+<p>可以查看空间占用比例，更好的查看文件夹大小，定位占用来源</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102228231.png"
+	width="1798"
+	height="1193"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102228231_hu_7345fa7a5c062a60.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102228231_hu_df6542893b932d0f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="150"
+		data-flex-basis="361px"
+	
+></p>
+<h2 id="everything">everything
+</h2><blockquote>
+<p>官网下载页面：<a class="link" href="https://www.voidtools.com/zh-cn/downloads/"  target="_blank" rel="noopener"
+    >下载 - voidtools</a></p>
+</blockquote>
+<p>可以快速搜索电脑内文件</p>
+<p><img src="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102438301.png"
+	width="1579"
+	height="1116"
+	srcset="/eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102438301_hu_ab38b64ab9c9b838.png 480w, /eera/p/%E7%A3%81%E7%9B%98%E5%92%8C%E7%B3%BB%E7%BB%9F/index.assets/image-20251227102438301_hu_135598da39f31820.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<h2 id="一些学习视频">一些学习视频
+</h2><p><a class="link" href="https://www.bilibili.com/video/BV1DJ411D79y"  target="_blank" rel="noopener"
+    >【装机教程】超详细WIN10系统安装教程，官方ISO直装与PE两种方法教程，UEFI+GUID分区与Legacy+MBR分区_哔哩哔哩_bilibili</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1M7W7zMELB"  target="_blank" rel="noopener"
+    >保姆级分享！用PE给电脑安装纯净版系统，一次制作永久使用！_哔哩哔哩_bilibili</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1Wt4y177Vu"  target="_blank" rel="noopener"
+    >【建议收藏】全网最详细C 盘清理指南！！！绝对值得收藏！！！_哔哩哔哩_bilibili</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1WYWGzQEwe"  target="_blank" rel="noopener"
+    >【电脑必备】4分钟教你如何系统的清理C 盘！我足足释放20多G!_哔哩哔哩_bilibili</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1cS4y1i79B"  target="_blank" rel="noopener"
+    >C盘爆满？简单几招教你释放几十G空间，最有效的C盘清理方法「超极氪」_哔哩哔哩_bilibili</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>采用 CC BY-NC-SA 4.0 许可</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="WindoveC/Eera"
+        issue-term="pathname"
+        
+        label="Comment"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 WindoveC
+    </section>
+    
+    <section class="powerby">
+        
+            因为热爱，可迎万难 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.32.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/eera/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
