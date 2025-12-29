@@ -7,7 +7,536 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>WindoveC</copyright>
-        <lastBuildDate>Sat, 27 Dec 2025 10:30:28 +0800</lastBuildDate><atom:link href="https://windovec.github.io/eera/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 29 Dec 2025 14:26:05 +0800</lastBuildDate><atom:link href="https://windovec.github.io/eera/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一些常用界面</title>
+        <link>https://windovec.github.io/eera/p/common/</link>
+        <pubDate>Mon, 29 Dec 2025 14:26:05 +0800</pubDate>
+        
+        <guid>https://windovec.github.io/eera/p/common/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下面的 Win+R 可以替换成在这里输入然后回车&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145747581.png&#34;
+	width=&#34;1248&#34;
+	height=&#34;1220&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145747581_hu_de92de1107905008.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229145747581_hu_50dd9722f4e58464.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;245px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按下 &lt;code&gt;Win+X&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229152815084.png&#34;
+	width=&#34;253&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229152815084_hu_985c2cb2fbb1b48.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229152815084_hu_dca6611538672bd2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;26&#34;
+		data-flex-basis=&#34;63px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;计算机管理&#34;&gt;计算机管理
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;打开路径：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;右键点击“此电脑”（或“我的电脑”） -&amp;gt; 选择“管理”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制面板 -&amp;gt; 系统和安全 -&amp;gt; 管理工具 -&amp;gt; 计算机管理&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Win+R 启动：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;compmgmt.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145026822.png&#34;
+	width=&#34;1152&#34;
+	height=&#34;749&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145026822_hu_7261ff64a28c27c8.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229145026822_hu_dfac18b22085b6bd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;369px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;设备管理器&#34;&gt;设备管理器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：查看/管理硬件设备、更新驱动、禁用设备。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右键“此电脑” → 管理 → 设备管理器&lt;/li&gt;
+&lt;li&gt;控制面板 → 硬件和声音 → 设备管理器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;devmgmt.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145604862.png&#34;
+	width=&#34;1169&#34;
+	height=&#34;856&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145604862_hu_d3be93c441aa118f.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229145604862_hu_8ba2557e3c1a21b2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;327px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;磁盘管理&#34;&gt;磁盘管理
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：管理硬盘分区（扩展/压缩/格式化分区）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右键“此电脑” → 管理 → 磁盘管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskmgmt.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145806409.png&#34;
+	width=&#34;1128&#34;
+	height=&#34;893&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229145806409_hu_8ec91d2ce96c0dcc.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229145806409_hu_343c17b6550b83df.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20251229145806409&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;303px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;注册表编辑器&#34;&gt;注册表编辑器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：修改系统深层配置（谨慎操作）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;无直接图形入口，建议通过运行命令打开。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;regedit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150037750.png&#34;
+	width=&#34;1454&#34;
+	height=&#34;1012&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150037750_hu_d130a43b8dbdba69.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229150037750_hu_b60cf2af5d62f44.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;服务&#34;&gt;服务
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：管理后台服务（启动/停止/禁用）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右键“此电脑” → 管理 → 服务和应用程序 → 服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;services.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150135694.png&#34;
+	width=&#34;1683&#34;
+	height=&#34;1123&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150135694_hu_be81121f4935e0f.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229150135694_hu_cfd00d59f3c2e6a0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;系统信息&#34;&gt;系统信息
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：查看详细硬件配置和系统版本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开始菜单 → Windows 管理工具 → 系统信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;msinfo32
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150903261.png&#34;
+	width=&#34;1557&#34;
+	height=&#34;1128&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229150903261_hu_84739a2ce7ef0df6.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229150903261_hu_c0b4ddb89ef2bd0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;331px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;windows-防火墙&#34;&gt;Windows 防火墙
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：管理防火墙规则。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 系统和安全 → Windows Defender 防火墙&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;firewall.cpl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151359923.png&#34;
+	width=&#34;1678&#34;
+	height=&#34;1087&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151359923_hu_a5813867e8866e4a.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229151359923_hu_6f6fa655f9b3a921.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;370px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151346217.png&#34;
+	width=&#34;1996&#34;
+	height=&#34;1302&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151346217_hu_cecdc8050b912040.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229151346217_hu_13a5ad204f6a61de.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;事件查看器&#34;&gt;事件查看器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：查看系统/程序错误日志，排查故障。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右键“此电脑” → 管理 → 事件查看器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;eventvwr.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151455451.png&#34;
+	width=&#34;1824&#34;
+	height=&#34;1136&#34;
+	srcset=&#34;https://windovec.github.io/eera/p/common/index.assets/image-20251229151455451_hu_2e6830001cca2588.png 480w, https://windovec.github.io/eera/p/common/index.assets/image-20251229151455451_hu_f3058c4e273cb05e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;385px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;任务管理器&#34;&gt;任务管理器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：查看进程性能、启动项管理、结束任务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Ctrl + Shift + Esc&lt;/li&gt;
+&lt;li&gt;Ctrl + Alt + Del → 任务管理器&lt;/li&gt;
+&lt;li&gt;右键任务栏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;taskmgr
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;资源监视器&#34;&gt;资源监视器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：实时监控 CPU、内存、磁盘、网络使用情况。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;任务管理器 → 性能选项卡 → 打开资源监视器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;resmon
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;系统配置&#34;&gt;系统配置
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：管理启动项、服务、引导选项（如安全模式）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;任务管理器 → 文件 → 运行新任务 → 输入 &lt;code&gt;msconfig&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;msconfig
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;组策略编辑器&#34;&gt;组策略编辑器
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用途&lt;/strong&gt;：高级系统设置调整（仅限 Windows 专业版及以上）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 管理工具 → 组策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gpedit.msc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows-内存诊断工具&#34;&gt;Windows 内存诊断工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：检测内存故障。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 管理工具 → Windows 内存诊断&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mdsched
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;磁盘清理工具&#34;&gt;磁盘清理工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：清理临时文件、释放磁盘空间。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;右键磁盘 → 属性 → 磁盘清理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cleanmgr
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;系统还原&#34;&gt;系统还原
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：恢复系统到之前的还原点。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 恢复 → 打开系统还原&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rstrui
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;高级启动选项恢复环境&#34;&gt;高级启动选项（恢复环境）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：修复启动、安全模式、系统重置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;设置 → 更新与安全 → 恢复 → 高级启动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown /r /o /f /t 0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;网络连接配置&#34;&gt;网络连接配置
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：管理网络适配器、IP 设置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 网络和共享中心 → 更改适配器设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ncpa.cpl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;电源选项&#34;&gt;电源选项
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：调整电源计划、休眠设置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;打开路径&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;控制面板 → 硬件和声音 → 电源选项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Win+R 启动&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;powercfg.cpl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>清灰换硅脂</title>
         <link>https://windovec.github.io/eera/p/hd1/</link>
         <pubDate>Sat, 27 Dec 2025 10:30:28 +0800</pubDate>
@@ -15,24 +544,82 @@
         <guid>https://windovec.github.io/eera/p/hd1/</guid>
         <description>&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;撬片等工具熟练拆机前不要使用金属的&lt;/li&gt;
-&lt;li&gt;熟练拆机前不要用电动螺丝刀&lt;/li&gt;
-&lt;li&gt;螺丝放在不会掉地上的地方，放螺丝的时候按照原来的位置、螺丝种类分类&lt;/li&gt;
-&lt;li&gt;后盖开法可以上网搜索视频&lt;/li&gt;
-&lt;li&gt;插入撬片不能太深，防止戳到主板元件，撬片向外顶&lt;/li&gt;
-&lt;li&gt;打开后盖第一时间断开电源（大多数可以直接拨出主板电源线，如天选系列接口上面有金属片，需要先拨开金属片）&lt;/li&gt;
-&lt;li&gt;按几下开机键放静电&lt;/li&gt;
-&lt;li&gt;主板拍个照，便于对照复原&lt;/li&gt;
-&lt;li&gt;风扇接口用镊子左右来回拨，慢慢拔&lt;/li&gt;
-&lt;li&gt;装新的固态硬盘时，自带螺丝可能容易滑丝，第一次拧的时候用多点力（别用太大力把主板压弯）&lt;/li&gt;
-&lt;li&gt;散热模组螺丝有的是弹簧螺钉，是拧不下来的&lt;/li&gt;
-&lt;li&gt;拧开散热模组螺丝时，可以按照逆序拧&lt;/li&gt;
-&lt;li&gt;拧回散热模组螺丝时，按照序号顺序拧回，可以先拧半圈再完全拧完
-如果没有，按照对角线&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;部分笔记本拆机后会失去保修，大多数只要没拆坏就不影响保修&lt;/p&gt;
+
+            &lt;link rel=&#34;stylesheet&#34; href=&#34;https://windovec.github.io/eera/css/vendors/admonitions.a5128328e65b14e9af1bfc5d96ffbcc40978b6d81dbeecb7f70959b501ee715c.css&#34; integrity=&#34;sha256-pRKDKOZbFOmvG/xdlv&amp;#43;8xAl4ttgdvuy39wlZtQHucVw=&#34; crossorigin=&#34;anonymous&#34;&gt;
+    &lt;div class=&#34;admonition caution&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Caution&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;网上有传闻，微星笔记本要拆机就不保修，即使在保修期内&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;没拆过或者不熟练的电脑，先上网看一遍视频&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拆前拔掉所有外接设备&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关机不要着急合盖，有的电脑关机慢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;轻薄本难拆，部分螺丝和游戏本不同，不是十字螺丝，后盖太难开可以用吸盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;撬片等工具熟练拆机前不要使用金属的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;熟练拆机前不要用电动螺丝刀&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;螺丝放在不会掉地上的地方，放螺丝的时候按照原来的位置、螺丝种类分类&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;后盖开法可以上网搜索视频&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入撬片不能太深，防止戳到主板元件，撬片向外顶&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开后盖第一时间断开电源（大多数可以直接拨出主板电源线，如天选系列接口上面有金属片，需要先拨开金属片）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按几下开机键放静电&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;主板拍个照，便于对照复原&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;谨防大力出奇迹，除非有经验了，不然慢慢加力，尤其各种连接线，轻点，不要坏了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;风扇接口和电池接口拔出和插回，尤其插回，注意放平放正插回，防止掰弯针脚&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;风扇接口用镊子左右来回拨，慢慢拔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;装新的固态硬盘时，自带螺丝可能容易滑丝，第一次拧的时候用多点力（别用太大力把主板压弯）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;散热模组螺丝有的是弹簧螺钉，是拧不下来的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拧开散热模组螺丝时，可以按照逆序拧&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拧回散热模组螺丝时，按照序号顺序拧回，可以先拧半圈再完全拧完
+如果没有，按照对角线&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;一些学习视频&#34;&gt;一些学习视频
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/109878910&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;小秋搞机的个人空间-小秋搞机个人主页-哔哩哔哩视频&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fZ4y1879X&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小秋搞机 荣耀magicbook 14 2022 拆机视频magicbook16pro可参考更换硬盘清灰维护演示_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/486984223/lists/6175968&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;笔记本维修大师兄的个人空间-合集·清灰换硅脂系列教程-哔哩哔哩视频&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -53,7 +640,7 @@
         &lt;p&gt;重装后所有装在C盘的软件需要重新配置，环境需要重新配置，非必要不重装&lt;/p&gt;
 &lt;p&gt;重装系统后，厂商自带的软件会丢失，绝大多数都可以通过官网重新下载&lt;/p&gt;
       &lt;/div&gt;
-    &lt;/div&gt;&lt;h3 id=&#34;方式一首先尝试windows系统自带的重新安装初始化电脑功能&#34;&gt;方式一：首先尝试Windows&lt;strong&gt;系统自带&lt;/strong&gt;的重新安装、初始化电脑功能
+    &lt;/div&gt;&lt;h3 id=&#34;方式一首先尝试windows系统自带的重新安装初始化电脑功能&#34;&gt;方式一：首先尝试Windows系统自带的重新安装、初始化电脑功能
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;重置：&lt;/strong&gt; 此选项会重新安装 Windows，并让你可以选择保留或删除个人文件。 但是，应用和设置会重置为默认值。 有关详细信息，请参阅 &lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/zh-cn/windows/%e5%88%9d%e5%a7%8b%e5%8c%96%e7%94%b5%e8%84%91-0ef73740-b927-549b-b7c9-e6f2b48d275e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;如何重置电脑&lt;/a&gt;。&lt;/li&gt;
@@ -71,7 +658,7 @@
 		data-flex-basis=&#34;373px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;方式二使用预安装环境pe&#34;&gt;方式二：使用预安装环境（&lt;strong&gt;PE&lt;/strong&gt;）
+&lt;h3 id=&#34;方式二使用预安装环境pe&#34;&gt;方式二：使用预安装环境（PE）
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;一个微型或精简版的操作系统，通常用于系统维护和安装。PE 系统可以通过 U 盘或移动硬盘启动，不依赖于原本电脑上的操作系统。其主要功能包括、系统安装、硬盘分区、系统备份和还原、引导修复、文件管理、清除开机密码等。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -364,7 +951,7 @@ VIP版（附加一些工具和联网、外放等）：&lt;a class=&#34;link&#34;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;windows-安装媒体工具&#34;&gt;&lt;strong&gt;Windows 安装媒体工具&lt;/strong&gt;
+&lt;h3 id=&#34;windows-安装媒体工具&#34;&gt;Windows 安装媒体工具
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;删除驱动盘所有分区&lt;/p&gt;
