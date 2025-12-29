@@ -758,7 +758,12 @@ VIP版（附加一些工具和联网、外放等）：&lt;a class=&#34;link&#34;
       &lt;/div&gt;
     &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;查看和修改位置：资源管理器左栏 - 右键桌面 - 属性 - 位置
-如果左栏没有：则在桌面创建一个新文件，右键查看位置，如 &lt;code&gt;C:\Users\aoruo\Desktop&lt;/code&gt;，访问&lt;code&gt;C:\Users\Desktop&lt;/code&gt;，既可以看到桌面图标&lt;/li&gt;
+如果左栏没有：
+&lt;ul&gt;
+&lt;li&gt;在资源管理器地址栏直接输入桌面回车&lt;/li&gt;
+&lt;li&gt;则在桌面创建一个新文件，右键查看位置，如 &lt;code&gt;C:\Users\aoruo\Desktop&lt;/code&gt;，访问&lt;code&gt;C:\Users\Desktop&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
